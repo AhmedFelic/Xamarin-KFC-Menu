@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KFC_menu.Dessert2"
+             Title="Hershies Pie">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+
+            <Image Source="pie.jpg" HeightRequest="200" Margin="0, 50, 40, 0" VerticalOptions="Center" HorizontalOptions="Center"></Image>
+            <Label Text="Hershies Pie" FontSize="24" HorizontalOptions="Center" Margin="0, 20, 0, 0" TextColor="#FF6666"></Label>
+            <Label Text="Price: 6.99$" FontSize="20" HorizontalOptions="Center" Margin="0, 0, 0, 0" TextColor="#FF6666"></Label>
+            <Label Text="Hershey Pie is a chocolate mousse pie served in a ready-made graham cracker crust.This 3-ingredient dessert is light, creamy, decadent, and so delicious!" FontSize="18" TextColor="Black"  HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Margin="10, 20, 10, 10"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

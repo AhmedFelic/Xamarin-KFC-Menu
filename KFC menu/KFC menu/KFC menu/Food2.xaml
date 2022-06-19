@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KFC_menu.Food2"
+             Title="KFC Vegan Burger">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+
+            <Image Source="veganHam.jpg" HeightRequest="200" Margin="0, 50, 0, 0" VerticalOptions="Center" HorizontalOptions="Center"></Image>
+            <Label Text="KFC Vegan Burger" FontSize="24" HorizontalOptions="Center" Margin="0, 20, 0, 0" TextColor="#FF6666"></Label>
+            <Label Text="Price: 9.99$" FontSize="20" HorizontalOptions="Center" Margin="0, 0, 0, 0" TextColor="#FF6666"></Label>
+            <Label Text="Our award-winning Original Recipe Vegan burger is still on the menu at our most popular vegan restaurants. Buy a vegan burger now at your KFC!" FontSize="18" TextColor="Black"  HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Margin="40, 20, 40, 0"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
